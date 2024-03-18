@@ -1,0 +1,5 @@
+name: "CodeQL code scanning config example"
+
+query-filters:
+- exclude:
+     id: py/csrf-protection-disabled
