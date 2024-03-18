@@ -1,7 +1,8 @@
 name: "CodeQL code scanning config example"
 
-queries: security-extended
+queries: 
+  - uses: security-extended
 
 query-filters:
-- exclude:
-     id: py/csrf-protection-disabled
+  - exclude:
+      id: py/csrf-protection-disabled
