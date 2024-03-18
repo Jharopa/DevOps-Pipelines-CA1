@@ -1,6 +1,6 @@
 name: "CodeQL code scanning config example"
 
-queries: security-extended #,security-and-quality
+queries: security-extended
 
 query-filters:
 - exclude:
